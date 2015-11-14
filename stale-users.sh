@@ -81,7 +81,7 @@ if [ $1 = "-e" ] || [ $1 = "--email" ]; then # If we're emailing the list
 	done
 	
 	if [[ -n "$STALEUSERS" ]]; then # If $STALEUSERS is not empty, email the list
-		echo "Stale user[s]:$STALEUSERS" | mail -s "Subject: Pan has stale users" "$EMAILADDRESS"
+		echo "Stale user[s]:$STALEUSERS" | mail -s "Subject: server has stale users" "$EMAILADDRESS"
 		exit
 	else
 		echo "No one is stale, yay!  Let's not bother sending an email."
