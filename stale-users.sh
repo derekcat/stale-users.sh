@@ -2,8 +2,8 @@
 # Script written by Derek DeMoss for Dark Horse Comics, Inc. 2015
 # This is designed to create a list of users who will be disabled on next login attempt due to 
 # lack of logins in the last 180 days, per our global PasswordPolicy 
-# Most of the logic is stolen from my Nagios plugin:
-# https://github.com/derekcat/check_od_lock.sh
+# Most of the logic is stolen from my disabled users script:
+# https://github.com/derekcat/disabled-users.sh
 
 if [ "$1" = "-h" ] || [ "$1" = "--help" ] || [ "$1" = "" ]; then
 	echo "stale-users.sh"
