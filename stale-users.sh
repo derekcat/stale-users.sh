@@ -7,7 +7,7 @@
 
 if [ "$1" = "-h" ] || [ "$1" = "--help" ] || [ "$1" = "" ]; then
 	echo "stale-users.sh"
-	echo "Generates a list of stale OD users and either emails or prints to STDOUT\n"
+	echo "Generates a list of stale OD users and either emails or prints to STDOUT"
 	echo "Usage: stale-users.sh -e [email-to address]"
 	echo "Usage: stale-users.sh -p"
 	echo "Options"
